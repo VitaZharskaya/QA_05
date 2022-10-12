@@ -1,8 +1,8 @@
-package homeTasks.Task_5;
+package homeTasks.Task_5_6;
 
 
-import static homeTasks.Task_5.EmployeeUtils.*;
-import static homeTasks.Task_5.SalaryUtils.getSum;
+import static homeTasks.Task_5_6.EmployeeUtils.*;
+import static homeTasks.Task_5_6.SalaryUtils.getSum;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class Main {
         System.out.printf("name: %s, sex: %s, age: %s." + "\n", vita.getName(), vita.getSex(), vita.getAge());
 
 
-        System.out.println(findByName(employees, "Katya").getName()); // как лучше оформить, если мы захотим вызвать имя, а объект == null?
+        System.out.println(findByName(employees, "Katya")); // как лучше оформить, если мы захотим вызвать имя, а объект == null?
         System.out.println(findBySubname(employees, "ya").getName()); // как сделать так, чтобы выводилось несколько сотрудников?
         System.out.println(getAllEmployeesSalary(employees));
         System.out.println(getMinSalary(employees));

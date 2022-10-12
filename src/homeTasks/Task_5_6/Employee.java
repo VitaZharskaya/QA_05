@@ -1,4 +1,4 @@
-package homeTasks.Task_5;
+package homeTasks.Task_5_6;
 
 public class Employee extends Person{
     private int salary;

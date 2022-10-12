@@ -1,4 +1,4 @@
-package homeTasks.Task_5;
+package homeTasks.Task_5_6;
 
 public class SalaryUtils {
     public static int getSum(Employee[] employeeArray) {
