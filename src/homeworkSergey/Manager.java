@@ -3,9 +3,6 @@ package homeworkSergey;
 public class Manager extends Worker {
     private int numberOfSubordinates;
 
-    public Manager() {
-    }
-
     public Manager(String name, int baseSalary, int numberOfSubordinates) {
         super(name, baseSalary);
         this.numberOfSubordinates = numberOfSubordinates;

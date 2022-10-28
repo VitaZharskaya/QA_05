@@ -1,7 +1,7 @@
 package homeworkSergey;
 
 
-public class Helper {
+public class Utils {
 
     // поиск сотрудника в массиве по его имени
     public static void searchByName(Employee[] employees, String name) {

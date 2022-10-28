@@ -1,9 +1,9 @@
 package homeworkSergey;
 
 
-import static homeworkSergey.Helper.*;
+import static homeworkSergey.Utils.*;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
 
         Manager manager = new Manager("vita", 10000, 5);
